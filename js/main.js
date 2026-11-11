@@ -25,3 +25,9 @@ function op(){im.src=$('.cimg').src;lb.classList.add('open');document.body.style
 function cl(){lb.classList.remove('open');$('.lbs').classList.remove('zoom');document.body.style.overflow='';b.focus()}
 b.onclick=op;im.onclick=function(e){e.stopPropagation();$('.lbs').classList.toggle('zoom')};$('#lbx').onclick=cl;lb.onclick=function(e){if(e.target===lb||e.target.classList.contains('lbs'))cl()};
 document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('open'))cl()})})();
+
+(function(){var tabs=$$('.rt'),papers=$$('.paper'),dl=$('#rdl'),dt=$('#rdlt');if(!tabs.length||!dl)return;
+var F={py:'assets/Akash_Raval_Python_Developer_Resume.pdf',web:'assets/Akash_Raval_Web_Developer_Resume.pdf'};
+tabs.forEach(function(t){t.onclick=function(){tabs.forEach(function(o){o.setAttribute('aria-selected',o===t?'true':'false')});
+papers.forEach(function(p){p.hidden=p.id!==t.getAttribute('aria-controls')});
+var f=F[t.dataset.k];dl.href=f;dl.setAttribute('download',f.split('/').pop());dt.textContent='Download PDF ('+t.textContent+')'}})})();
