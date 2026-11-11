@@ -22,6 +22,6 @@ $('#pr').onclick=function(){try{window.print()}catch(e){}if(window.top!==window)
 var y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear();
 (function(){var b=$('#cv'),lb=$('#lb'),im=$('#lbi');if(!b||!lb)return;
 function op(){im.src=$('.cimg').src;lb.classList.add('open');document.body.style.overflow='hidden';$('#lbx').focus()}
-function cl(){lb.classList.remove('open');document.body.style.overflow='';b.focus()}
-b.onclick=op;$('#lbx').onclick=cl;lb.onclick=function(e){if(e.target===lb||e.target.classList.contains('lbs'))cl()};
+function cl(){lb.classList.remove('open');$('.lbs').classList.remove('zoom');document.body.style.overflow='';b.focus()}
+b.onclick=op;im.onclick=function(e){e.stopPropagation();$('.lbs').classList.toggle('zoom')};$('#lbx').onclick=cl;lb.onclick=function(e){if(e.target===lb||e.target.classList.contains('lbs'))cl()};
 document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('open'))cl()})})();
