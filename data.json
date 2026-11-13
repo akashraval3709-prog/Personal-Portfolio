@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-11-13T10:54:31.126825Z",
+  "exported_at": "2026-11-13T10:56:04.735233Z",
   "profile": {
     "id": 1,
     "name": "Akash Raval",
@@ -33,7 +33,7 @@
       "title": "Programming",
       "subtitle": "Core languages and OOP",
       "icon": "code",
-      "items": "Python, Java, C#, .NET, C, PHP, JavaScript,",
+      "items": "Python, Java, C#, .NET, C, PHP, JavaScript,Oops",
       "width": "wide",
       "sort_order": 10
     },
