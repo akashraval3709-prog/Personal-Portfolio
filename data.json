@@ -1,0 +1,203 @@
+{
+  "exported_at": "2026-11-13T10:54:31.126825Z",
+  "profile": {
+    "id": 1,
+    "name": "Akash Raval",
+    "role": "Python & Web Developer",
+    "badge": "Python & Web Developer • BCA Student, HNGU",
+    "hero_lead": "BCA student at Smt. B. K. Mehta IT Centre, HNGU. Focused on Python backend engineering, Flask web development, and MySQL databases, with active interests in Full Stack Web Development and Cybersecurity. Co-creator of **CampusSync**.",
+    "stat1_value": "4",
+    "stat1_label": "Featured Projects",
+    "stat2_value": "2-Person",
+    "stat2_label": "ERP Team Build",
+    "stat3_value": "2027",
+    "stat3_label": "Expected BCA Graduation",
+    "about_intro": "BCA student focused on Python backend development and practical full-stack projects.",
+    "about_text": "I am a BCA student at Smt. B. K. Mehta IT Centre, Hemchandracharya North Gujarat University (HNGU), with an expected graduation in 2027.\n\nMy primary focus is Python Backend Development, with expertise in creating web applications using Flask and managing relational data with MySQL. I also enjoy Full Stack Web Development and explore Cybersecurity principles to write safer, cleaner code.\n\nIn our flagship project, CampusSync (a College ERP System), I worked in a collaborative two-person team. Both of us contributed across the frontend interfaces and the Flask/MySQL backend. We are also developing the companion mobile application.",
+    "avatar_image": "images/akash-avatar.jpg",
+    "about_image": "images/akash-about.jpg",
+    "email": "akashraval3709@gmail.com",
+    "phone_display": "+91 9328976260",
+    "whatsapp": "919328976260",
+    "location": "Gujarat, India",
+    "github_url": "https://github.com/akashraval3709-prog",
+    "github_label": "akashraval3709-prog",
+    "linkedin_url": "https://linkedin.com/in/akash-raval-a04809398/",
+    "linkedin_label": "akash-raval-a04809398",
+    "footer_tagline": "Python & Web Developer. BCA student at HNGU, building Flask and MySQL web applications.",
+    "meta_description": "Akash Raval is a BCA student and Python & Web Developer building Flask and MySQL apps. See projects like CampusSync, skills and certificates."
+  },
+  "skills": [
+    {
+      "id": 1,
+      "title": "Programming",
+      "subtitle": "Core languages and OOP",
+      "icon": "code",
+      "items": "Python, Java, C#, .NET, C, PHP, JavaScript,",
+      "width": "wide",
+      "sort_order": 10
+    },
+    {
+      "id": 2,
+      "title": "Backend",
+      "subtitle": "Server-side engineering",
+      "icon": "server",
+      "items": "Flask, REST APIs, Jinja2",
+      "width": "normal",
+      "sort_order": 20
+    },
+    {
+      "id": 4,
+      "title": "Frontend",
+      "subtitle": "Web user interfaces",
+      "icon": "layout",
+      "items": "HTML5, CSS3, JavaScript, Fetch API, Responsive UI",
+      "width": "normal",
+      "sort_order": 30
+    },
+    {
+      "id": 3,
+      "title": "Database",
+      "subtitle": "Relational data storage",
+      "icon": "database",
+      "items": "MySQL, SQL Queries, Schema Design",
+      "width": "normal",
+      "sort_order": 40
+    },
+    {
+      "id": 6,
+      "title": "Web & Security Interests",
+      "subtitle": "Currently exploring",
+      "icon": "shield",
+      "items": "Full Stack Web Development, Cybersecurity, Ethical Hacking Basics, React Native (Expo)",
+      "width": "full",
+      "sort_order": 50
+    },
+    {
+      "id": 5,
+      "title": "Tools",
+      "subtitle": "Version control and platforms",
+      "icon": "tool",
+      "items": "Git, GitHub, VS Code, Railway",
+      "width": "normal",
+      "sort_order": 60
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "kind": "featured",
+      "title": "CampusSync – College ERP System",
+      "description": "A College ERP Management System for student records, faculty management, and attendance tracking. Built by a two-person team across frontend and backend, with a React Native / Expo mobile app in progress.",
+      "tags": "Python, Flask, MySQL, HTML5, CSS3, JavaScript, Railway",
+      "live_url": "https://campus-sync.up.railway.app/",
+      "live_label": "Live Demo ↗",
+      "repo_url": "https://github.com/akashraval3709-prog/CampusSync",
+      "repo_label": "GitHub Repository ↗",
+      "visible": true,
+      "sort_order": 10
+    },
+    {
+      "id": 2,
+      "kind": "project",
+      "title": "Personal Portfolio",
+      "description": "This portfolio website, showcasing my background, skills, projects, and contact details with multiple theme support.",
+      "tags": "HTML5, CSS3, JavaScript, Themes",
+      "live_url": "https://akashraval3709-prog.github.io/Personal-Portfolio/",
+      "live_label": "Live Demo ↗",
+      "repo_url": "https://github.com/akashraval3709-prog/Personal-Portfolio",
+      "repo_label": "GitHub Code ↗",
+      "visible": true,
+      "sort_order": 20
+    },
+    {
+      "id": 3,
+      "kind": "project",
+      "title": "Pizza House",
+      "description": "A modern, responsive pizza restaurant landing page built with HTML and CSS, with an attractive UI and a food-themed layout.",
+      "tags": "HTML5, CSS3, Responsive UI",
+      "live_url": "https://akashraval3709-prog.github.io/pizza-house/",
+      "live_label": "Live Demo ↗",
+      "repo_url": "https://github.com/akashraval3709-prog/pizza-house",
+      "repo_label": "GitHub ↗",
+      "visible": true,
+      "sort_order": 30
+    },
+    {
+      "id": 4,
+      "kind": "project",
+      "title": "CSharp-DotNet-GUI-Journey",
+      "description": "My C# .NET GUI programming journey: Windows Forms, OOP, controls, events, database connectivity, and projects.",
+      "tags": "C#, .NET, Windows Forms, OOP",
+      "live_url": "",
+      "live_label": "",
+      "repo_url": "https://github.com/akashraval3709-prog/CSharp-DotNet-GUI-Journey",
+      "repo_label": "GitHub ↗",
+      "visible": true,
+      "sort_order": 40
+    },
+    {
+      "id": 5,
+      "kind": "repo",
+      "title": "Python-Practice",
+      "description": "Python practice programs, problem-solving exercises, and mini projects.",
+      "tags": "Python",
+      "live_url": "",
+      "live_label": "",
+      "repo_url": "https://github.com/akashraval3709-prog/Python-Practice",
+      "repo_label": "",
+      "visible": true,
+      "sort_order": 50
+    },
+    {
+      "id": 6,
+      "kind": "repo",
+      "title": "Javascript-Practice",
+      "description": "JavaScript programs, logic building exercises, and mini-projects.",
+      "tags": "JavaScript",
+      "live_url": "",
+      "live_label": "",
+      "repo_url": "https://github.com/akashraval3709-prog/Javascript-Practice",
+      "repo_label": "",
+      "visible": true,
+      "sort_order": 60
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "period": "Jun 2024 – Apr 2027 (expected)",
+      "title": "Bachelor of Computer Applications (BCA)",
+      "institution": "Smt. B.K. Mehta I.T. Centre (BCA College), Palanpur",
+      "extra": "Field of study: Computer Science\nUniversity: Hemchandracharya North Gujarat University (HNGU)",
+      "bullets": "Python programming and MySQL\nWeb development and software concepts",
+      "sort_order": 10
+    },
+    {
+      "id": 2,
+      "period": "March 13–14, 2026 · Participation Certificate",
+      "title": "2-Day Ethical Hacking Workshop",
+      "institution": "Dept. of Computer & IT, HNGU",
+      "extra": "",
+      "bullets": "Network defense and basic security auditing\nVulnerabilities and secure coding",
+      "sort_order": 20
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "badge": "Certificate of Participation",
+      "title": "2-Day Ethical Hacking Workshop",
+      "issuer": "Dept. of Computer & Information Technology, HNGU",
+      "date_text": "March 13–14, 2026",
+      "location": "Patan, Gujarat",
+      "type_text": "Two-day, hands-on workshop",
+      "tags": "Ethical Hacking, Network Defense, Security Auditing, Secure Coding",
+      "link_url": "https://linkedin.com/in/akash-raval-a04809398/",
+      "link_label": "View on LinkedIn ↗",
+      "image": "images/ethical-hacking-workshop-certificate.jpg",
+      "image_alt": "Certificate of Participation, Ethical Hacking Workshop, HNGU, March 13-14, 2026",
+      "sort_order": 10
+    }
+  ]
+}
